@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    /* Add padding to accommodate the footer */
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.buttons {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.countResult {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+footer {
+    position: fixed;
+    /* Fixed position for the footer */
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+}
+
+@media (max-width: 600px) {
+    textarea {
+        width: 100%;
+    }
+}
